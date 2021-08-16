@@ -1,0 +1,164 @@
+<style>
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #eea436;
+  border-radius: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family:Cooper Black;
+  border-radius: 25px;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color:white;
+}
+
+.topnav a.active {
+  background-color:black;
+  color: white;
+}
+
+.footer {
+  width: 100%;
+  background-color: #222;
+  position: relative;
+  z-index: 1;
+}
+.footer a {
+  color: #fff;
+}
+
+.footer .footer-top {
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+}
+.footer .widget-title, .footer .widget-title a {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  color: #999;
+}
+.footer .widget-title{
+  padding-bottom: 10px;
+  font-family: 'Satisfy', sans-serif;
+  font-size: 44px;
+  color: #FFB03B;
+  
+}
+.footer .widget, .footer address {
+  color: #999;
+  text-transform: none;
+  font-style: normal;
+  padding-bottom: 15px;
+  
+}
+.footer .navigation, .footer .social-list {
+  float: none;
+  margin-bottom: 20px;
+}
+.list-horizontal li {
+  display: inline-block;
+}
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-family:cooper black;
+}
+
+header {
+  background-image:url(coffee-header.jpg);
+  background-size:cover;
+  padding: 5px;
+  text-align: center;
+  font-size: 35px;
+  color:#FFB03B;
+  font-family:Cooper Black;
+}
+
+table, th, td {
+  width:100px;;
+  border: 1px solid black;
+  border-spacing: 1px;
+  border-style:none;}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+  padding: 16px;
+  background-color: white;
+  font-family:Cooper Black;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+input[type=text], input[type=password],input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #eea436;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-family:Cooper Black;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.signin {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+.img{
+  opacity:0.5;
+}
+</style>
